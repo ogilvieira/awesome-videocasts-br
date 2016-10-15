@@ -1,0 +1,31 @@
+{
+  "name": "awesome-videocasts-br",
+  "version": "1.0.0",
+  "description": "Lista dos videocasts que todo desenvolvedor brasileiro deveria experimentar acompanhar.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ogilvieira/awesome-videocasts-br.git"
+  },
+  "keywords": [
+    "podcast",
+    "brasil",
+    "web"
+  ],
+  "author": "Gil Vieira <ogilvieira@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ogilvieira/awesome-videocasts-br/issues"
+  },
+  "homepage": "https://github.com/ogilvieira/awesome-videocasts-br#readme",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
