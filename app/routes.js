@@ -4,7 +4,7 @@ app.config(['$routeProvider', function($routeProvider){
       templateUrl : 'app/views/list.html',
       controller : 'ListController'
     })
-    .when('/podcast/:videocastSlug', {
+    .when('/videocast/:videocastSlug', {
       templateUrl : 'app/views/get.html',
       controller : 'GetController'
     })

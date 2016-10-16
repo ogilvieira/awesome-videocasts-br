@@ -1,8 +1,8 @@
-app.controller("ListController", ['$scope', 'podcasts', 'feed', 'ngMeta', function($scope, podcasts, feed, ngMeta){
+app.controller("ListController", ['$scope', 'videocasts', 'feed', 'ngMeta', function($scope, videocasts, feed, ngMeta){
 
-  ngMeta.setTitle('Lista de Podcasts');
+  ngMeta.setTitle('Lista de videocasts');
 
-  $scope.podcasts = [];
+  $scope.videocasts = [];
   $scope.loaded = false;
   $scope.searchform = {};
 
@@ -26,8 +26,8 @@ app.controller("ListController", ['$scope', 'podcasts', 'feed', 'ngMeta', functi
     localStorage.setItem('searchform', JSON.stringify($scope.searchform));
   }, true);
 
-  podcasts.list(function(res){
-    if(res.data){ $scope.podcasts = res.data; $scope.loaded = true; }
+  videocasts.list(function(res){
+    if(res.data){ $scope.videocasts = res.data; $scope.loaded = true; }
   });
 
 }]);

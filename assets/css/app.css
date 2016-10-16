@@ -1,13 +1,13 @@
 body {
   padding-top: 120px;
-  background-color: whitesmoke !important;
-  color: #636363; }
+  background-color: #3e3e49 !important;
+  color: white; }
 
 @media screen and (max-width: 991px) {
   body {
     padding-top: 70px; } }
 .main-navbar {
-  background: #FFF;
+  background: #1e1f2d;
   height: 100px;
   padding: 10px 0;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); }
@@ -16,7 +16,7 @@ body {
   .main-navbar .navbar-brand {
     display: block;
     height: 80px;
-    width: 207px;
+    width: 218px;
     background: url(../img/brand.png) no-repeat center center;
     overflow: hidden;
     text-indent: -999px;
@@ -32,7 +32,7 @@ body {
       width: 104px;
       background-size: auto 40px; } }
 .item-list {
-  background: white;
+  background: #2c2c35;
   border-radius: 0;
   display: block;
   margin-bottom: 20px;
@@ -50,7 +50,7 @@ body {
   .item-list .media-heading {
     margin: 5px 0 10px;
     font-size: 16px;
-    color: #636363; }
+    color: white; }
     .item-list .media-heading .fa {
       font-size: .8em;
       line-height: 1em;
@@ -134,7 +134,17 @@ body {
   width: 100%;
   border-radius: 0;
   border: 0;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  background: #252533;
+  color: white; }
+  .filter-bar .form-control::-webkit-input-placeholder {
+    color: #ccccc; }
+  .filter-bar .form-control::-moz-placeholder {
+    color: #ccccc; }
+  .filter-bar .form-control:-moz-placeholder {
+    color: #ccccc; }
+  .filter-bar .form-control:-ms-input-placeholder {
+    color: #ccccc; }
 
 .header-about .media-heading {
   line-height: 32px; }

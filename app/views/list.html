@@ -26,44 +26,25 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-6 col-md-4" ng-if="loaded && podcast_list.length > 0 && !searchform.$.length">
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCB6TKEcL9ucFezNFCsWH2ZMtfd4clgD9IF-xR0WmbEUiIKA/viewform?c=0&w=1" target="_blank" class="item-list item-list-ad media">
-              <div class="media-left media-middle">
-                <img class="media-object" ng-src="assets/img/pesquisa-podcasts.png" width="128" height="128" alt="Pesquisa de interesse">
-              </div>
-              <div class="media-body">
-                <h4 class="media-heading"> <i class="fa fa-circle" aria-hidden="true"></i> O que você quer ouvir?</h4>
-                  <p>
-                    A comunidade quer saber o que você espera de um bom podcast. Clique aqui e responda a pesquisa!
-                  </p>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-sm-6 col-md-4" ng-repeat="item in podcast_list = (podcasts | orderBy:'name' | filter:searchform:strict)">
-            <a href="#/podcast/{{item.name|slugify}}" class="item-list media">
+          <div class="col-sm-6 col-md-4" ng-repeat="item in videocast_list = (videocasts | orderBy:'name' | filter:searchform:strict)">
+            <a href="#/videocast/{{item.name|slugify}}" class="item-list media">
               <div class="media-left media-middle">
                 <img class="media-object" ng-if="item.twitter_at" ng-src="https://avatars.io/twitter/{{item.twitter_at | lowercase}}" width="128" height="128" alt="{{item.name}}">
                 <img class="media-object" ng-if="!item.twitter_at" ng-src="assets/img/placeholder.png" width="128" height="128" alt="{{item.name}}">
               </div>
               <div class="media-body">
-                <h4 class="media-heading"> <i class="fa" ng-class="{ 'fa-circle' : item.status, 'fa-circle-o' : !item.status}" aria-hidden="true"></i> {{item.name | limitTo: 21}}</h4>
-                  <span ng-if="item.itunes_link"><i class="fa fa-apple"></i></span>
-                  <span ng-if="item.youtube_link"><i class="fa fa-youtube-play"></i></span>
-                  <span ng-if="item.soundclound_link"><i class="fa fa-soundcloud"></i></span>
-                  <span ng-if="item.rss_link"><i class="fa fa-rss"></i></span>
-                  <span ng-if="item.website_link"><i class="fa fa-link"></i></span>
-                  <p ng-bind="(( stripTags(item.description) || 'Sem descrição') | limitTo: 80)+'...'"></p>
+                <h4 class="media-heading"> {{item.name | limitTo: 21}}</h4>
+                  <p ng-bind="(( stripTags(item.description) || 'Sem descrição') | limitTo: 120)+'...'"></p>
               </div>
             </a>
           </div>
 
-          <center ng-if="!loaded && podcasts.length == 0">
+          <center ng-if="!loaded && videocasts.length == 0">
             <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
             <span class="sr-only">Loading...</span>
           </center>
 
-          <center ng-if="loaded && podcast_list.length == 0" class="col-lg-12">
+          <center ng-if="loaded && videocast_list.length == 0" class="col-lg-12">
             <p>
               Nenhum resultado :( 
               <br><br> 
