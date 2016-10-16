@@ -47,8 +47,7 @@
         </div>
       </div>
   </div>
-
-  <div class="col-12">
+  <div class="col-12" ng-if="videocast.subjects.length">
      <span class="tag-subject" ng-repeat="subject in videocast.subjects">{{subject}}</span>
   </div>
 </section>

@@ -11,118 +11,293 @@
     "channel_link" : "https://www.youtube.com/channel/UCo7EHzKF2zDFWszw7Dg4mPw",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Anso Dev",
     "channel_link" : "https://www.youtube.com/channel/UCeEY4eHe6kKDzfa9TH3RjVw",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Aprenda Código com o Moisés",
     "channel_link" : "https://www.youtube.com/channel/UCHwST4CdPmR8Xq6CDFgjzOw",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "asp.net{cast}",
     "channel_link" : "https://www.youtube.com/channel/UC1DrB2LTgVBGiZdgaOrzMCg",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Aulas de Programação",
     "channel_link" : "https://www.youtube.com/channel/UCqromb78N3C06M_PFUh6rZw",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Bluesoft Labs",
     "channel_link" : "https://www.youtube.com/channel/UCMbi8katMCUd5JkJ3Rr0t_w",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "BrazilJS",
     "channel_link" : "https://www.youtube.com/channel/UCnLdHOuue5i1O7TsH6oh07w",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Brian Johnson",
     "channel_link" : "https://www.youtube.com/channel/UCRhEwzsFYLGcMa4m2AbTAoA",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "CappuForDevs",
     "channel_link" : "https://www.youtube.com/channel/UChYJDfeNaNXByhB4Qiidbyg",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Carlos Gutierre",
     "channel_link" : "https://www.youtube.com/channel/UCmMZegvDsv3hgNQuilYQ3oA",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Castalio Maciel",
     "channel_link" : "https://www.youtube.com/channel/UCz2FnA78vvxiekgFAU7jqxw",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : " CocaTech",
     "channel_link" : "https://www.youtube.com/channel/UCx72piyYI2z9SaioioLT6cA",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "CocoaHeads Brasil",
     "channel_link" : "https://www.youtube.com/channel/UCxN-_poBEXynC7YPE_394LQ",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Coding 101",
     "channel_link" : "https://www.youtube.com/channel/UCSxIcr2rZZcoU7rSGXaEQag",
     "description" : "",
     "language" : "en",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Coding Math",
     "channel_link" : "https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ",
     "description" : "",
     "language" : "en",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "Curso em Vídeo",
     "channel_link" : "https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
   },
   {
     "name" : "CursoCC50",
     "channel_link" : "https://www.youtube.com/channel/UCQ1hTV3di1jEYEnpH4E0ykQ",
     "description" : "",
     "language" : "pt_br",
-    "subjects" : [""]
+    "subjects" : []
+  },
+  {
+    "name" : "Código Fonte TV",
+    "channel_link" : "https://www.youtube.com/channel/UCFuIUoyHB12qpYa8Jpxoxow",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "designasolucoes",
+    "channel_link" : "https://www.youtube.com/channel/UCVUyu91_Y6xbJiWRLoEp4Tw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "DevTips",
+    "channel_link" : "https://www.youtube.com/channel/UCyIe-61Y8C4_o-zZCtO4ETQ",
+    "description" : "",
+    "language" : "en",
+    "subjects" : []
+  },
+  {
+    "name" : "Diolinux",
+    "channel_link" : "https://www.youtube.com/channel/UCEf5U1dB5a2e2S-XUlnhxSA",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Estevan Maito",
+    "channel_link" : "https://www.youtube.com/channel/UCIUOmAsotrzdK8VsZuHfVHw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Eu, Ciência",
+    "channel_link" : "https://www.youtube.com/channel/UCmOqIaUBwlSK6lVGC2o46JA",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "eXcript",
+    "channel_link" : "https://www.youtube.com/channel/UCRu4BNG9k_BRUu-aCYJsgHg",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "foocast",
+    "channel_link" : "https://www.youtube.com/channel/UCpxmaENJMJl1RMIXE-hzueA",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Free Code Camp",
+    "channel_link" : "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+    "description" : "",
+    "language" : "en",
+    "subjects" : []
+  },
+  {
+    "name" : "Front End TV",
+    "channel_link" : "https://www.youtube.com/channel/UCztRO4rG71uxuR-Tpf_biww",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Front In Aracaju",
+    "channel_link" : "https://www.youtube.com/channel/UCldroAmN_mqPi8gRQehJcrg",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Front in BH",
+    "channel_link" : "https://www.youtube.com/channel/UC9Dvz8MBr06QlMhuduphndg",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Front in Sampa",
+    "channel_link" : "https://www.youtube.com/channel/UCwoGd_KU0OxiVT5r-rPrzWA",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "FULL STACKER DEVELOPER",
+    "channel_link" : "https://www.youtube.com/channel/UC-8goXO6sjFuIbanvBd-jfA",
+    "description" : "",
+    "language" : "en",
+    "subjects" : []
+  },
+  {
+    "name" : "funfunfunction",
+    "channel_link" : "https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q",
+    "description" : "",
+    "language" : "en",
+    "subjects" : []
+  },
+  {
+    "name" : "Gravento",
+    "channel_link" : "https://www.youtube.com/channel/UCU_SZQAcN4IDs_RXY7iT4sg",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Ideia Recursiva",
+    "channel_link" : "https://www.youtube.com/channel/UC4Wk5-ujKI9gmxd3ZcF6Guw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "iMasters",
+    "channel_link" : "https://www.youtube.com/channel/UCNTX_S7zq9h_MKhPljMIoYw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Ionic",
+    "channel_link" : "https://www.youtube.com/channel/UChYheBnVeCfhCmqZfCUdJQw",
+    "description" : "",
+    "language" : "en",
+    "subjects" : []
+  },
+  {
+    "name" : "Javascript Masters",
+    "channel_link" : "https://www.youtube.com/channel/UCU5JicSrEM5A63jkJ2QvGYw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Le Wagon",
+    "channel_link" : "https://www.youtube.com/channel/UChCDYcBCrb8tuPAO6e0P-Hw",
+    "description" : "",
+    "language" : "en",
+    "subjects" : []
+  },
+  {
+    "name" : "LevelUpTuts",
+    "channel_link" : "https://www.youtube.com/channel/UCyU5wkjgQYGRB0hIHMwm2Sg",
+    "description" : "",
+    "language" : "en",
+    "subjects" : []
+  },
+  {
+    "name" : "Matemática Rio com Prof. Rafael Procopio",
+    "channel_link" : "https://www.youtube.com/channel/UCjIPRjJZtGhzWD2LrEKOHMA",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "O Dev Cast",
+    "channel_link" : "https://www.youtube.com/channel/UCwwyZf-DqmuiPYk9Z7ZyBhg",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
+  },
+  {
+    "name" : "Pagar.me Talks",
+    "channel_link" : "https://www.youtube.com/channel/UCNhSCufrcOMeFvzEM7tt9Lw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : []
   }
 ]
