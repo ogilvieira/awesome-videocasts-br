@@ -50,7 +50,8 @@ hr {
   border-radius: 0;
   display: block;
   margin-bottom: 20px;
-  color: inherit; }
+  color: inherit;
+  padding: 10px; }
   .item-list:hover, .item-list:focus {
     color: inherit;
     text-decoration: none;
@@ -183,5 +184,14 @@ hr {
   border: 0;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
   background: #555565; }
+
+.tag-subject {
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background: #27272d;
+  margin: 3px;
+  vertical-align: top;
+  color: #878799; }
 
 /*# sourceMappingURL=app.css.map */

@@ -6,3 +6,13 @@
   box-shadow: 0 0 4px rgba(0,0,0,.1);
   background: lighten(#3e3e49, 10%);
 }
+
+.tag-subject {
+  display: inline-block;
+  padding: 3px 6px;
+  border-radius: 3px;
+  background: darken(#3e3e49, 10%);
+  margin: 3px;
+  vertical-align: top;
+  color: lighten(#3e3e49, 30%);
+}

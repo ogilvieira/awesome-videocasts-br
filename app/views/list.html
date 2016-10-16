@@ -4,15 +4,8 @@
 
         <form class="filter-bar container-fluid" ng-model="searchform" role="search">
           <div class="row">
-            <div class="form-group col-sm-6">
-              <input type="text" class="form-control input-lg col-lg-6" ng-model="searchform.$" placeholder="Filtrar">
-            </div>
-            <div class="form-group col-xs-6 col-sm-3">
-              <select class="form-control input-lg" ng-model="searchform.status">
-                <option value="">Status</option>
-                <option value="true">Ativo</option>
-                <option value="false">Desativado</option>
-              </select>
+            <div class="form-group col-sm-9">
+              <input type="text" class="form-control input-lg col-lg-6" ng-model="searchform.$" placeholder="Nome ou Assunto">
             </div>
             <div class="form-group col-xs-6 col-sm-3">
               <select class="form-control input-lg" ng-model="searchform.language">
@@ -28,10 +21,6 @@
         <div class="row">
           <div class="col-sm-6 col-md-4" ng-repeat="item in videocast_list = (videocasts | orderBy:'name' | filter:searchform:strict)">
             <a href="#/videocast/{{item.name|slugify}}" class="item-list media">
-              <div class="media-left media-middle">
-                <img class="media-object" ng-if="item.twitter_at" ng-src="https://avatars.io/twitter/{{item.twitter_at | lowercase}}" width="128" height="128" alt="{{item.name}}">
-                <img class="media-object" ng-if="!item.twitter_at" ng-src="assets/img/placeholder.png" width="128" height="128" alt="{{item.name}}">
-              </div>
               <div class="media-body">
                 <h4 class="media-heading"> {{item.name | limitTo: 21}}</h4>
                   <p ng-bind="(( stripTags(item.description) || 'Sem descrição') | limitTo: 120)+'...'"></p>
@@ -48,7 +37,7 @@
             <p>
               Nenhum resultado :( 
               <br><br> 
-              <button class="btn" ng-click="clearQuery()"><i class="fa fa-repeat"></i> Tentar outra vez</button>
+              <button class="btn btn-danger" ng-click="clearQuery()"><i class="fa fa-repeat"></i> Tentar outra vez</button>
             </p>
           </center> 
           </div>
