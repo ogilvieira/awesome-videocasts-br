@@ -33,6 +33,7 @@
     }
   }
   .media-body {
+    height: 94px;
     span {
       display: inline-block;
       line-height: 20px;
@@ -100,6 +101,7 @@
   }
   .item-list .media-body {
     padding: 10px;
+    height: auto;
     p {
       width: 100%;
       height: 60px;
