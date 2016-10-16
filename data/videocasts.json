@@ -5,5 +5,124 @@
     "description" : "O canal é apresentado por Rodrigo Branas. Arquiteto de software, especialista no desenvolvimento de aplicações web há mais de 15 anos, autor do livro AngularJS Essentials, publicado pela editora PacktPub e de diversos artigos da revista Java Magazine. Além disso, é professor e palestrante, tendo participado da formação de mais de 1.000 desenvolvedores de software e apresentado mais de 100 palestras em eventos no Brasil e no exterior. Formado em Ciências da Computação na UFSC e MBA em Gerenciamento de Projetos na FGV, ao longo da carreira acumulou as certificações SCJA, SCJP, SCJD, SCWCD, SCBCD, pela Sun Microsystems, e também PMP, pelo Project Management Institute.",
     "language" : "pt_br",
     "subjects" : ["javascript", "angularjs", "html"]
+  },
+  {
+    "name" : "Alura Cursos Online",
+    "channel_link" : "https://www.youtube.com/channel/UCo7EHzKF2zDFWszw7Dg4mPw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Anso Dev",
+    "channel_link" : "https://www.youtube.com/channel/UCeEY4eHe6kKDzfa9TH3RjVw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Aprenda Código com o Moisés",
+    "channel_link" : "https://www.youtube.com/channel/UCHwST4CdPmR8Xq6CDFgjzOw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "asp.net{cast}",
+    "channel_link" : "https://www.youtube.com/channel/UC1DrB2LTgVBGiZdgaOrzMCg",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Aulas de Programação",
+    "channel_link" : "https://www.youtube.com/channel/UCqromb78N3C06M_PFUh6rZw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Bluesoft Labs",
+    "channel_link" : "https://www.youtube.com/channel/UCMbi8katMCUd5JkJ3Rr0t_w",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "BrazilJS",
+    "channel_link" : "https://www.youtube.com/channel/UCnLdHOuue5i1O7TsH6oh07w",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Brian Johnson",
+    "channel_link" : "https://www.youtube.com/channel/UCRhEwzsFYLGcMa4m2AbTAoA",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "CappuForDevs",
+    "channel_link" : "https://www.youtube.com/channel/UChYJDfeNaNXByhB4Qiidbyg",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Carlos Gutierre",
+    "channel_link" : "https://www.youtube.com/channel/UCmMZegvDsv3hgNQuilYQ3oA",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Castalio Maciel",
+    "channel_link" : "https://www.youtube.com/channel/UCz2FnA78vvxiekgFAU7jqxw",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : " CocaTech",
+    "channel_link" : "https://www.youtube.com/channel/UCx72piyYI2z9SaioioLT6cA",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "CocoaHeads Brasil",
+    "channel_link" : "https://www.youtube.com/channel/UCxN-_poBEXynC7YPE_394LQ",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Coding 101",
+    "channel_link" : "https://www.youtube.com/channel/UCSxIcr2rZZcoU7rSGXaEQag",
+    "description" : "",
+    "language" : "en",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Coding Math",
+    "channel_link" : "https://www.youtube.com/channel/UCF6F8LdCSWlRwQm_hfA2bcQ",
+    "description" : "",
+    "language" : "en",
+    "subjects" : [""]
+  },
+  {
+    "name" : "Curso em Vídeo",
+    "channel_link" : "https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
+  },
+  {
+    "name" : "CursoCC50",
+    "channel_link" : "https://www.youtube.com/channel/UCQ1hTV3di1jEYEnpH4E0ykQ",
+    "description" : "",
+    "language" : "pt_br",
+    "subjects" : [""]
   }
 ]

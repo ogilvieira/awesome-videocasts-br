@@ -22,7 +22,7 @@
           <div class="col-sm-6 col-md-4" ng-repeat="item in videocast_list = (videocasts | orderBy:'name' | filter:searchform:strict)">
             <a href="#/videocast/{{item.name|slugify}}" class="item-list media">
               <div class="media-body">
-                <h4 class="media-heading"> {{item.name | limitTo: 21}}</h4>
+                <h4 class="media-heading"> {{item.name | limitTo: 31}}</h4>
                   <p ng-bind="(( stripTags(item.description) || 'Sem descrição') | limitTo: 120)+'...'"></p>
               </div>
             </a>
