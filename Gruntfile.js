@@ -7,6 +7,7 @@ module.exports = function(grunt) {
         './bower_components/angular-animate/angular-animate.min.js',
         './bower_components/angular-sanitize/angular-sanitize.js',
         './bower_components/angular-bootstrap/ui-bootstrap.min.js',
+        './bower_components/angular-youtube-api-factory/dist/angular-youtube-api-factory.min.js',
         './bower_components/angular-lazy-img/release/angular-lazy-img.js',
         './bower_components/abdmob/x2js/xml2json.js',
         './bower_components/ngMeta/dist/ngMeta.js',

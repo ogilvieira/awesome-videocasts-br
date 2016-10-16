@@ -1,5 +1,5 @@
-app.controller("GetController", ['$scope', 'videocast', 'feed', '$routeParams', 'ngMeta',
-  function($scope, videocast, feed, $routeParams, ngMeta){
+app.controller("GetController", ['$scope', 'videocasts', 'feed', '$routeParams', 'ngMeta','youtubeFactory'
+  ,function($scope, videocasts, feed, $routeParams, ngMeta, youtubeFactory){
 
   $scope.feedloaded = false;
   $scope.videocast = false;
@@ -16,9 +16,9 @@ app.controller("GetController", ['$scope', 'videocast', 'feed', '$routeParams', 
     });
   };
 
-  videocast.get($routeParams.videocastSlug, function(res){
-    $scope.podcast = res;
-    ngMeta.setTitle($scope.podcast.name);
+  videocasts.get($routeParams.videocastSlug, function(res){
+    $scope.videocast = res;
+    ngMeta.setTitle($scope.videocast.name);
     if(res.rss_link){ 
       $scope.feedloaded = false; 
       $scope.getEpisodes(res.rss_link);

@@ -6,16 +6,9 @@
         <img class="media-object" ng-if="!videocast.twitter_at" ng-src="assets/img/placeholder.png" width="128" height="128" alt="{{videocast.name}}">
       </div>
       <div class="media-body">
-    		<h1 class="media-heading"><i class="fa" ng-class="{ 'fa-circle' : videocast.status, 'fa-circle-o' : !videocast.status}" aria-hidden="true"></i> {{videocast.name}}</h1>
-        <nav>
-          <ul class="nav nav-pills">
-            <li ng-if="videocast.website_link"><a target="_blank" href="{{videocast.website_link}}"><i class="fa fa-link"></i></a></li>
-            <li ng-if="videocast.itunes_link"><a target="_blank" href="{{videocast.itunes_link}}"><i class="fa fa-apple"></i></a></li>
-            <li ng-if="videocast.youtube_link"><a target="_blank" href="{{videocast.youtube_link}}"><i class="fa fa-youtube-play"></i></a></li>
-            <li ng-if="videocast.soundclound_link"><a target="_blank" href="{{videocast.soundclound_link}}"><i class="fa fa-soundcloud"></i></a></li>
-            <li ng-if="videocast.rss_link"><a target="_blank" href="{{videocast.rss_link}}"><i class="fa fa-rss"></i></a></li>
-          </ul>
-        </nav>
+    		<h1 class="media-heading"> {{videocast.name}}</h1>
+        <hr>
+          <a class="btn btn-danger" href="{{videocast.channel_link}}" target="_blank"><i class="fa fa-youtube-play"></i> ACESSAR</a>
       </div>
     </header>
   </div>

@@ -1,4 +1,4 @@
-var app = angular.module("AVBR", ["slugifier","ngRoute","checklist-model", "ngSanitize", "ngMeta"]);
+var app = angular.module("AVBR", ["slugifier","ngRoute","checklist-model", "ngSanitize", "ngMeta", "jtt_youtube"]);
 
 app.run(['ngMeta', function(ngMeta) {
   ngMeta.init();

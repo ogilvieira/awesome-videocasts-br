@@ -3,6 +3,20 @@ body {
   background-color: #3e3e49 !important;
   color: white; }
 
+hr {
+  border-top: 1px solid #555565; }
+
+.page-header {
+  border-bottom: 1px solid #555565; }
+
+.breadcrumb {
+  border-radius: 3px;
+  background: #555565; }
+  .breadcrumb a {
+    color: white; }
+  .breadcrumb > .active {
+    color: #b9b9b9; }
+
 @media screen and (max-width: 991px) {
   body {
     padding-top: 70px; } }
@@ -165,8 +179,9 @@ body {
 .block-description {
   display: block;
   width: 100%;
-  border-radius: 0;
+  border-radius: 3px;
   border: 0;
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1); }
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  background: #555565; }
 
 /*# sourceMappingURL=app.css.map */
